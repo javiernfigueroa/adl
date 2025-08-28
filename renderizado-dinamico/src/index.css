@@ -1,0 +1,58 @@
+body {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(44, 44, 44);
+  color: white;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  gap: 10px;
+}
+
+.add-btn {
+  background-color: yellow;
+  border-radius: 10px;
+  padding: 10px;
+  border: none;
+  color: black;
+}
+
+fieldset {
+  display: flex;
+  flex-direction: column;
+}
+
+.errorMessage {
+  color: red;
+  text-align: center;
+  font-size: small;
+}
+
+.todo-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+li {
+  flex: 1;
+  margin-top: 5px;
+}
+
+.delete-btn {
+  border: none;
+  margin-bottom: 2px;
+}
+
+.circle {
+  border: 1px solid white;
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  background-color: white;
+  margin-top: 10px;
+}
